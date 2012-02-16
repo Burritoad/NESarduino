@@ -1,0 +1,2 @@
+This is just a code snippet for arduino, maybe I'll fix it and make it into a proper library at some point.
+To use it you need to add "DDRB = DDRB | BXXX011;" to setup (XXX can be ones or zeros, could be used for a second controller) and NES_READ() in the main loop.
