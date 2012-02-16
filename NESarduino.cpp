@@ -17,12 +17,12 @@ void NES_READ(){
   PORTB = B000000; _delay_us(6);
   //serial reads
   NES_B = NES_BIT();
-  NES_SEL = NES_BIT();
-  NES_STA = NES_BIT();
+  NES_SELECT = NES_BIT();
+  NES_START = NES_BIT();
   NES_UP = NES_BIT();
-  NES_DOW = NES_BIT();
-  NES_LEF = NES_BIT();
-  NES_RIG = NES_BIT();
+  NES_DOWN = NES_BIT();
+  NES_LEFT = NES_BIT();
+  NES_RIGHT = NES_BIT();
   
 }
 
